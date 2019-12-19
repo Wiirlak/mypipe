@@ -1,0 +1,18 @@
+name: mypipe
+version: "1.0"
+author: Alexis Desjardins <alex.desjardins@free.fr>
+args:
+  - in:
+      short: i
+      long: in
+      value_name: input
+      help: input value for the pipe
+      takes_value: true
+      required: true
+  - out:
+      short: o
+      long: out
+      value_name: output
+      help: output value for the pipe
+      takes_value: true
+      required: true
